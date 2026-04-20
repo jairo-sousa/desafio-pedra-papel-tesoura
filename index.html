@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedra papel tesoura</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="maos-cima">
+      <img src="imagens/pedra.png" id="pedra_1" onclick="jogar('pedra')" />
+      <img src="imagens/papel.png" id="papel_1" onclick="jogar('papel')" />
+      <img
+        src="imagens/tesoura.png"
+        id="tesoura_1"
+        onclick="jogar('tesoura')"
+      />
+    </div>
+    <div>
+      <img src="imagens/pedra.png" id="pedra_2" />
+      <img src="imagens/papel.png" id="papel_2" />
+      <img src="imagens/tesoura.png" id="tesoura_2" />
+    </div>
+    <p id="resultado">Clique nas 3 mãos de cima para jogar</p>
+  </body>
+</html>
